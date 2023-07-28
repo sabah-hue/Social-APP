@@ -1,0 +1,509 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Exam_node",
+    "dateExported": "2023-04-02T18:11:51.941Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c3c9ea60-1ff5-40bb-9776-531a9a8dadee",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "sign up",
+            "url": "http://localhost:5000/auth/signUp",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-03-31T03:57:13.064Z",
+            "modified": "2023-04-01T18:07:44.818Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"firstName\":\"sabah\",\n    \"lastName\":\"ahmed\",\n    \"email\":\"sabah.abdelbaset@gmail.com\",\n    \"password\":\"sabah2222\",\n    \"cpass\":\"sabah2222\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d3e4bba2-815b-4f0e-aa44-57ec57ebf5e4",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "update user profile",
+            "url": "http://localhost:5000/user/updateprofile",
+            "method": "PUT",
+            "sortNum": 12500,
+            "created": "2023-04-02T09:39:26.119Z",
+            "modified": "2023-04-02T10:48:33.932Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDQzMjQ5MSwiZXhwIjoxNjgwNDM2MDkxfQ.ICzY0uxAnMKljqm6XZkVbJbtxlgV2Aij5URQ7r1NXjU"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"firstName\":\"doaa\",\n    \"lastName\":\"ahmed\",\n    \"age\":22\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "823330cb-bc28-4170-b26b-8d938152325e",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "view profile user",
+            "url": "http://localhost:5000/user/viewprofile",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2023-04-02T09:37:57.542Z",
+            "modified": "2023-04-02T09:39:10.015Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDQyNTk4NywiZXhwIjoxNjgwNDI5NTg3fQ.dvo0-GyLun6FYkkhx_eIpAxQPArdEowQIL_BWyJXfnk"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5ae22ac0-2203-4a8f-bab2-4244799168b1",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "sign in",
+            "url": "http://localhost:5000/auth/signin",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-03-31T04:21:27.464Z",
+            "modified": "2023-04-02T08:58:25.887Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"email\":\"sabah.abdelbaset@gmail.com\",\n    \"password\":\"sabah1234\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "eb74c483-b5c6-4509-8160-5424a210cc59",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "verify Email",
+            "url": "http://localhost:5000/auth/verifyaccount/642833265242f204f553adb9",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-04-01T05:41:48.192Z",
+            "modified": "2023-04-01T13:36:55.979Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "90a20da1-1292-4210-a10d-514d1b0e4473",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "forget password",
+            "url": "http://localhost:5000/auth/forgetPassword",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-04-01T09:12:18.716Z",
+            "modified": "2023-04-01T18:23:11.280Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDM3MzMyNCwiZXhwIjoxNjgwMzc2OTI0fQ.izcb_KSRi3rYUxUF4BnSXC4AKoYXMNhemL0j5ydy9As"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"email\":\"sabah.abdelbaset@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5d8b44d3-776f-4162-8e26-bd9c7b1f0ce9",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "reset password",
+            "url": "http://localhost:5000/auth/resetPassword",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-04-01T09:20:23.463Z",
+            "modified": "2023-04-01T18:45:54.535Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDM3MzMyNCwiZXhwIjoxNjgwMzc2OTI0fQ.izcb_KSRi3rYUxUF4BnSXC4AKoYXMNhemL0j5ydy9As"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"email\":\"sabah.abdelbaset@gmail.com\",\n    \"newpassword\":\"doaa12846\",\n    \"cpass\":\"doaa12846\",\n    \"code\":\"z1WuZx\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "63c50aeb-204e-48af-9652-74ed5ac0ce99",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "change Password",
+            "url": "http://localhost:5000/auth/changePassword",
+            "method": "PATCH",
+            "sortNum": 52500,
+            "created": "2023-04-02T08:38:53.166Z",
+            "modified": "2023-04-02T08:46:41.879Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDQyNDMyMiwiZXhwIjoxNjgwNDI3OTIyfQ.G3_rRsDLb0vL-my6xiqe061GUvYVbvy_9H6rsTyC86Y"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"email\":\"sabah.abdelbaset@gmail.com\",\n    \"newpassword\":\"sabah1234\",\n    \"cpassword\":\"sabah1234\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9d76aa19-7094-47a9-a812-5a6d88e419f3",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "logout",
+            "url": "http://localhost:5000/auth/logout",
+            "method": "POST",
+            "sortNum": 55000,
+            "created": "2023-04-02T08:09:46.234Z",
+            "modified": "2023-04-02T08:33:03.603Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDQyNDMyMiwiZXhwIjoxNjgwNDI3OTIyfQ.G3_rRsDLb0vL-my6xiqe061GUvYVbvy_9H6rsTyC86Y"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9cae12ea-b44a-4f1d-9c5f-f3d047c2853c",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "New post",
+            "url": "http://localhost:5000/post/newPost",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-04-01T14:39:31.097Z",
+            "modified": "2023-04-02T14:53:32.644Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDQ0NjY3MSwiZXhwIjoxNjgwNDUwMjcxfQ.l2K6i__vfmf49wI00XJnkLSjAxwkt3Wp3uPbRH_YPOA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "post4"
+                    },
+                    {
+                        "name": "content",
+                        "value": "new post2"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "e:\\NTI\\tasks\\Digla Sports Club\\Digla Sports Club\\images\\logo.png"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "2c00b938-65b9-4a58-a518-4c4192ec5d53",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "profile pic",
+            "url": "http://localhost:5000/user/profilePic",
+            "method": "PATCH",
+            "sortNum": 61250,
+            "created": "2023-04-02T10:51:14.481Z",
+            "modified": "2023-04-02T13:41:23.388Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDQ0MjczNCwiZXhwIjoxNjgwNDQ2MzM0fQ.XPMiHuN7TMuZyteOMTzxZEigsOfdQ1hmNNZM_da-1c0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "e:\\NTI\\salmaafifyali_task7\\salmaafifyali_task7\\images\\team-member1.png"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "32e3cd06-cb54-413b-840e-fdb27cca0ac6",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "profile cover",
+            "url": "http://localhost:5000/user/profileCover",
+            "method": "PUT",
+            "sortNum": 61875,
+            "created": "2023-04-02T11:23:34.646Z",
+            "modified": "2023-04-02T14:10:44.115Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDQ0MjczNCwiZXhwIjoxNjgwNDQ2MzM0fQ.XPMiHuN7TMuZyteOMTzxZEigsOfdQ1hmNNZM_da-1c0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "e:\\NTI\\salmaafifyali_task7\\salmaafifyali_task7\\images\\team-member3.png"
+                    },
+                    {
+                        "name": "image",
+                        "value": "e:\\NTI\\img\\p02.jpg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "b9de5f0d-46de-4846-9d45-e81d6250130c",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "comment on post",
+            "url": "http://localhost:5000/post/comment/642999c54bfacc13095aea5c",
+            "method": "POST",
+            "sortNum": 62500,
+            "created": "2023-04-02T05:29:20.710Z",
+            "modified": "2023-04-02T15:07:52.398Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDQ0NjY3MSwiZXhwIjoxNjgwNDUwMjcxfQ.l2K6i__vfmf49wI00XJnkLSjAxwkt3Wp3uPbRH_YPOA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "content",
+                        "value": "comment88"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "e:\\NTI\\tasks\\Digla Sports Club\\Digla Sports Club\\images\\logo.png"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "1103b27d-8e03-45bd-a8f0-90b4bbe25cc8",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "reply on comment",
+            "url": "http://localhost:5000/post/replay/64299d1fca6a11766e929bf3",
+            "method": "POST",
+            "sortNum": 63750,
+            "created": "2023-04-02T17:39:06.735Z",
+            "modified": "2023-04-02T17:51:55.819Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDQ1NzIwOSwiZXhwIjoxNjgwNDYwODA5fQ.oQdV04RYSmvf8ibBpOatK-ZOtS-0sZ6Ugn6PplnvWno"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "content",
+                        "value": "comment88....."
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "e:\\NTI\\tasks\\Digla Sports Club\\Digla Sports Club\\images\\logo.png"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d4c98707-f860-4fe4-b9c8-f2f7f400d629",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "update privacy for post",
+            "url": "http://localhost:5000/post/updatePrivacy/6428b9adf41580c0b7f1b1ee",
+            "method": "PATCH",
+            "sortNum": 65000,
+            "created": "2023-04-01T21:38:25.972Z",
+            "modified": "2023-04-01T23:17:23.305Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDM5MDUzMywiZXhwIjoxNjgwMzk0MTMzfQ.wm2zHBzOhbFMywwyaTGzc5OSeWfMycR05uYStxV9Uc0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"privacy\":\"private\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2b15e839-1e9b-4cac-908b-abda2311dc79",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "delete post",
+            "url": "http://localhost:5000/post/deletePost/642996ecd2c90b8dd170eef0",
+            "method": "DELETE",
+            "sortNum": 67500,
+            "created": "2023-04-01T23:02:39.514Z",
+            "modified": "2023-04-02T14:54:29.141Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDQ0NjY3MSwiZXhwIjoxNjgwNDUwMjcxfQ.l2K6i__vfmf49wI00XJnkLSjAxwkt3Wp3uPbRH_YPOA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userId\":\"642872ee3aa9a02149b37118\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ce45fa9c-c225-4d2b-919b-9062242f0e3f",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "soft delete post",
+            "url": "http://localhost:5000/post/deletePost/6428b9adf41580c0b7f1b1ee",
+            "method": "DELETE",
+            "sortNum": 68125,
+            "created": "2023-04-01T23:27:52.802Z",
+            "modified": "2023-04-01T23:27:52.802Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDM5MDUzMywiZXhwIjoxNjgwMzk0MTMzfQ.wm2zHBzOhbFMywwyaTGzc5OSeWfMycR05uYStxV9Uc0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userId\":\"642872ee3aa9a02149b37118\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ba8976ae-8f33-44d8-bc9e-bfd4b35b3adb",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "like or unlike",
+            "url": "http://localhost:5000/post/likeUnlike/64290717855b4ce4b2409c8f",
+            "method": "PATCH",
+            "sortNum": 68750,
+            "created": "2023-04-01T23:02:57.134Z",
+            "modified": "2023-04-02T05:03:17.104Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDQxMDI0MSwiZXhwIjoxNjgwNDEzODQxfQ.QHl6hC_1HM9P1lhuQXoGaSXQX_demWB-DpILUkK4xLY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"Indicator\":\"0\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "259af20c-3ada-4428-90a5-af9a0ad01f14",
+            "colId": "4de90297-5695-4ae7-87d1-bf1176529e77",
+            "containerId": "",
+            "name": "get all posts",
+            "url": "http://localhost:5000/post/all?pageNo=1",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-04-01T21:26:07.833Z",
+            "modified": "2023-04-02T15:21:10.644Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "sabah__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Mjg3MmVlM2FhOWEwMjE0OWIzNzExOCIsImVtYWlsIjoic2FiYWguYWJkZWxiYXNldEBnbWFpbC5jb20iLCJpc0xvZ2dlZEluIjp0cnVlLCJyb2xlIjoiVXNlciIsImlhdCI6MTY4MDQ0NjY3MSwiZXhwIjoxNjgwNDUwMjcxfQ.l2K6i__vfmf49wI00XJnkLSjAxwkt3Wp3uPbRH_YPOA"
+                }
+            ],
+            "params": [
+                {
+                    "name": "pageNo",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "post44"
+                    },
+                    {
+                        "name": "content",
+                        "value": "new post"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "e:\\NTI\\tasks\\Digla Sports Club\\Digla Sports Club\\images\\logo.png"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ]
+}
